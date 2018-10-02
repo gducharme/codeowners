@@ -1,0 +1,4 @@
+*.rb         @gducharme
+
+helm/        @gducharme
+Jenkinsfile  @gducharme
