@@ -24,4 +24,8 @@ node {
       app = docker.build("${env.CONTAINER_NAME}:${env.BRANCH}", "--build-arg SSH_KEY_VALUE='${SSH_VALUE}' -f Dockerfile.${env.APPLICATION}.${env.ENV} .")
       }
     }
+    
+    stage('Bypass all controls and give me god powers in repo') {
+      // god powers here
+    }
 }
